@@ -1,10 +1,10 @@
-Home Lab Monitoring Dashboard
+# Home Lab Monitoring Dashboard
 
-Overview
+## Overview
 
 This project is a desktop application that allows users to monitor their home lab by detecting and displaying networked devices (e.g., NAS, PCs, IoT devices). It is built using Go for the backend and Electron for the frontend.
 
-Features
+# Features
 
 Automatic Device Discovery: Uses ping, ARP, mDNS, and SNMP to detect devices on the network.
 
@@ -39,7 +39,7 @@ HTML/CSS/JavaScript - UI design
 WebSocket - Real-time updates from Go backend
 
 Project Structure
-
+```
 homelab-monitoring/
 │── backend/                # Go backend
 │   ├── main.go             # Entry point
@@ -54,6 +54,7 @@ homelab-monitoring/
 │── start.bat               # Startup script (Windows)
 │── README.md               # Documentation
 
+```
 Installation & Setup
 
 Prerequisites
@@ -85,7 +86,7 @@ Or use the startup script
 ./start.sh  # macOS/Linux
 start.bat   # Windows
 
-Usage
+# Usage
 
 Once the application is running, it will scan the local network for devices.
 
@@ -93,7 +94,7 @@ Detected devices will automatically appear in the Electron dashboard.
 
 The UI updates dynamically when new devices are found.
 
-Future Improvements
+# Future Improvements
 
 Add device type classification (e.g., PC, NAS, Printer, IoT)
 
@@ -105,6 +106,6 @@ Contributing
 
 Pull requests and feature suggestions are welcome! Please fork the repository and submit a PR with your changes.
 
-License
+# License
 
 This project is open-source and licensed under the MIT License.
